@@ -85,20 +85,20 @@ char * mystrstr (char* src, char* seek){
     return "Not Found";
 }
 
-int main(){
-    printf("%d\n", mystrlen1("12345"));
-    printf("%d\n", mystrlen2("12345"));
-    char src[] = "C++Exam";
-    char dest[10];
-    mystrcpy1(dest, src);
-    printf("%s\n", dest);
-    mystrcpy2(dest, src);
-    printf("%s\n", dest);
-    char * str1 = "C++Exam";
-    char * str2 = "C++Exam";
-    printf("%d\n", mystrcmp(str1,str2));
-    char str3[30] = "This is ";
-    printf("%s\n", mystrcat(str3, str2));
-    printf("%s\n", mystrchr(str1, 'E'));
-    printf("%s\n", mystrstr(str1, str2));
-}
+//int main(){
+//    printf("%d\n", mystrlen1("12345"));
+//    printf("%d\n", mystrlen2("12345"));
+//    char src[] = "C++Exam";
+//    char dest[10];
+//    mystrcpy1(dest, src);
+//    printf("%s\n", dest);
+//    mystrcpy2(dest, src);
+//    printf("%s\n", dest);
+//    char * str1 = "C++Exam";
+//    char * str2 = "C++Exam";
+//    printf("%d\n", mystrcmp(str1,str2));
+//    char str3[30] = "This is ";
+//    printf("%s\n", mystrcat(str3, str2));
+//    printf("%s\n", mystrchr(str1, 'E'));
+//    printf("%s\n", mystrstr(str1, str2));
+//}
