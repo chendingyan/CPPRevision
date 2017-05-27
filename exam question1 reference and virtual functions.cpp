@@ -6,7 +6,7 @@ protected:
 public:
     virtual int a() { return  i+1; }
     int b(){ return i+2; }
-    virtual void set(int n){i = n;}
+    void set(int n){i = n;}
 
 };
 
