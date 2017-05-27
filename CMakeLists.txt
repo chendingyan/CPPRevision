@@ -3,5 +3,5 @@ project(CPPRevision)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(SOURCE_FILES main.cpp mystringfunctions.cpp "static local and global.cpp" testreference.cpp friendfunction.cpp TheFriend.cpp TheFriend.h "scoping operator.cpp" stldemo.cpp virtualfunction.cpp)
+set(SOURCE_FILES main.cpp mystringfunctions.cpp "static local and global.cpp" testreference.cpp friendfunction.cpp TheFriend.cpp TheFriend.h "scoping operator.cpp" stldemo.cpp virtualfunction.cpp FunctionPointers.cpp)
 add_executable(CPPRevision ${SOURCE_FILES})
