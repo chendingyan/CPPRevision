@@ -54,19 +54,19 @@ public:
 };
 
 
-int main(){
-    MyLinkedList list;
-    list.insertHead(4);
-    list.insertHead(6);
-    list.insertHead(7);
-    list.insertHead(2);
-    list.list();
-
-    TemplateLinkedList<int> Tlist;
-    Tlist.insertHead(4);
-    Tlist.insertHead(6);
-    Tlist.insertHead(7);
-    Tlist.insertHead(2);
-    Tlist.list();
-    return 0;
-}
+//int main(){
+//    MyLinkedList list;
+//    list.insertHead(4);
+//    list.insertHead(6);
+//    list.insertHead(7);
+//    list.insertHead(2);
+//    list.list();
+//
+//    TemplateLinkedList<int> Tlist;
+//    Tlist.insertHead(4);
+//    Tlist.insertHead(6);
+//    Tlist.insertHead(7);
+//    Tlist.insertHead(2);
+//    Tlist.list();
+//    return 0;
+//}

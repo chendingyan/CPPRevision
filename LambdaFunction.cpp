@@ -22,7 +22,7 @@ void basiclambda(){
 }
 
 void STLuse(){
-    vector<int> vec = {1,2,3,4,5,6,7};
+    vector<int> vec = {0,1,2,3,4,5,6,7};
     //Should know what is any_of
     cout << "any_of < 2 : " << any_of(vec.begin(), vec.end(), [](int i){ return i < 2;}) << endl;
 
@@ -30,8 +30,8 @@ void STLuse(){
 
     cout << "find_if(divisible by 5): " << *find_if(vec.begin(), vec.end(), [](int i){ return !(i%5);}) << endl;
 }
-
-int main(){
-    STLuse();
-}
+//
+//int main(){
+//    STLuse();
+//}
 

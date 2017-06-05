@@ -15,9 +15,9 @@ public:
 void FriendFunc(const char * msg, Friendly &ob){
     printf( "%s : _i = %d\n", msg, ob._i );
 }
-
-int main(){
-    Friendly d1(2), d2;
-    FriendFunc("d1", d1);
-    FriendFunc("d2", d2);
-}
+//
+//int main(){
+//    Friendly d1(2), d2;
+//    FriendFunc("d1", d1);
+//    FriendFunc("d2", d2);
+//}

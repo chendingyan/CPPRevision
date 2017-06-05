@@ -25,12 +25,12 @@ void foo(){
     }
 }
 
-int main(){
-    for (int i = 0; i < 20; i++){
-        try{
-            foo();
-        }catch(...){
-            cout << "Other" << endl;
-        }
-    }
-}
+//int main(){
+//    for (int i = 0; i < 20; i++){
+//        try{
+//            foo();
+//        }catch(...){
+//            cout << "Other" << endl;
+//        }
+//    }
+//}

@@ -17,19 +17,19 @@ private:
     int m_Val;
 };
 
-int main(){
-    Example eg1;
-    Example eg2(2);
-
-    Example eg3 = eg2;  //In this way, it is initialisation, will use copy constructor
-
-    Example eg4;
-    eg4 = eg2;  //In this way, it is declare and assignment, will not use copy constructor
-
-    eg1.print();
-    eg2.print();
-    eg3.print();
-    eg4.print();
-    return 0;
-
-}
+//int main(){
+//    Example eg1;
+//    Example eg2(2);
+//
+//    Example eg3 = eg2;  //In this way, it is initialisation, will use copy constructor
+//
+//    Example eg4;
+//    eg4 = eg2;  //In this way, it is declare and assignment, will not use copy constructor
+//
+//    eg1.print();
+//    eg2.print();
+//    eg3.print();
+//    eg4.print();
+//    return 0;
+//
+//}

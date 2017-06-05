@@ -18,10 +18,10 @@ public:
 
 };
 
-int main(){
-    MyClass myClass1(1,"C++Exam");
-    MyClass myClass2(1, "C++Exam");
-    if(myClass1 == myClass2){
-       cout << "Match" << endl;
-    }
-}
+//int main(){
+//    MyClass myClass1(1,"C++Exam");
+//    MyClass myClass2(1, "C++Exam");
+//    if(myClass1 == myClass2){
+//       cout << "Match" << endl;
+//    }
+//}

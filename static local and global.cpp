@@ -26,17 +26,17 @@ int overwrite(){
     return iOverwrite1;
 }
 
-int main(){
-    int * piStatic = funcstatic();
-    int * piLocal = funclocal();
-
-    funcstatic();
-    funclocal();
-
-    printf("%d, %d, %d\n", iGlobal, *piStatic, *piLocal);
-
-    overwrite();
-
-    printf("%d, %d, %d\n", iGlobal, *piStatic, *piLocal);
-    return 0;
-}
+//int main(){
+//    int * piStatic = funcstatic();
+//    int * piLocal = funclocal();
+//
+//    funcstatic();
+//    funclocal();
+//
+//    printf("%d, %d, %d\n", iGlobal, *piStatic, *piLocal);
+//
+//    overwrite();
+//
+//    printf("%d, %d, %d\n", iGlobal, *piStatic, *piLocal);
+//    return 0;
+//}

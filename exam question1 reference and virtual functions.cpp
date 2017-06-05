@@ -17,14 +17,14 @@ public:
     void set(int n){i = n+5;}
 };
 
-int main(){
-    Sub s;
-    Base& r = s;
-    s.set(10);
-    printf("%d, %d, %d, %d\n", s.a(), s.b(), r.a(), r.b());
-
-    r.set(20);
-    printf("%d, %d, %d, %d\n", s.a(), s.b(), r.a(), r.b());
-    return 0;
-
-}
+//int main(){
+//    Sub s;
+//    Base& r = s;
+//    s.set(10);
+//    printf("%d, %d, %d, %d\n", s.a(), s.b(), r.a(), r.b());
+//
+//    r.set(20);
+//    printf("%d, %d, %d, %d\n", s.a(), s.b(), r.a(), r.b());
+//    return 0;
+//
+//}

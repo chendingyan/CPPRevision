@@ -27,17 +27,17 @@ MyFloat operator - (const MyFloat &lhs, const MyFloat &rhs){
     return MyFloat(lhs.strName+"-"+ rhs.strName, lhs.f-rhs.f);
 }
 
-
-int main(){
-    MyFloat f1("f1", 1.1f);
-    f1.print();
-    MyFloat f2("f2", 3.3f);
-    f2.print();
-
-    MyFloat f3 = f2 - f1;
-    f3.print();
-
-    MyFloat f4 = f1 + f2;
-    f4.print();
-
-}
+//
+//int main(){
+//    MyFloat f1("f1", 1.1f);
+//    f1.print();
+//    MyFloat f2("f2", 3.3f);
+//    f2.print();
+//
+//    MyFloat f3 = f2 - f1;
+//    f3.print();
+//
+//    MyFloat f4 = f1 + f2;
+//    f4.print();
+//
+//}

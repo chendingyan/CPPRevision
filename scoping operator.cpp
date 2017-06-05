@@ -22,11 +22,11 @@ struct Sub : public Base{
 };
 
 
-
-int main(){
-    Sub s;
-    printf("%d, %d, %d\n", i, s.i, s.Base::i);
-    s.modify();
-    printf("%d, %d, %d\n", i, s.i, s.Base::i);
-    return 0;
-}
+//
+//int main(){
+//    Sub s;
+//    printf("%d, %d, %d\n", i, s.i, s.Base::i);
+//    s.modify();
+//    printf("%d, %d, %d\n", i, s.i, s.Base::i);
+//    return 0;
+//}

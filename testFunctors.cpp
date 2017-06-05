@@ -77,9 +77,9 @@ void functorsAsArguments(){
     cout << endl;
 }
 
-int main(){
+//int main(){
 //    simpleFunctors();
 //    FunctorswithMemberData();
 //    FunctorsByReference();
-    functorsAsArguments();
-}
+//    functorsAsArguments();
+//}

@@ -6,7 +6,7 @@ public:
         return "Base Foo";
     }
 
-    virtual char * bar(){
+    char * bar(){
         return "Base Bar";
     }
 };
@@ -17,12 +17,16 @@ public:
         return "Sub Foo";
     }
 
-    char * bar(){
+    virtual char * bar(){
 //        return BaseClass::bar();
         return "Sub Bar";
     }
 };
 
+void aaa(){
+    BaseClass* baseClass = new SubClass;
+    printf("%s", baseClass->bar());
+}
 void displayFunctionOverriden(){
     SubClass * pSub = new SubClass;
     printf("foo = %s, bar = %s", pSub->foo(), pSub->bar());
@@ -42,8 +46,9 @@ void displayVirtualFunction(){
     printf("sub bar = %s, base bar = %s", pSub->bar(), pBase->bar());
     delete pSub;
 }
-
-int main(){
-//    displayNoVirtualFunction();
-    displayVirtualFunction();
-}
+//
+//int main(){
+////    displayNoVirtualFunction();
+////    displayVirtualFunction();
+//    aaa();
+//}

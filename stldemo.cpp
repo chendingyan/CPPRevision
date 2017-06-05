@@ -39,8 +39,8 @@ void testarray(){
     }
     cout << endl;
 }
-int main(){
-    testvector();
-    testarray();
-
-}
+//int main(){
+//    testvector();
+//    testarray();
+//
+//}

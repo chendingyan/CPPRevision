@@ -18,12 +18,12 @@ Converter::operator int() {
     return _i;
 }
 
-int main(){
-    int i =14;
-    Converter c1(5);
-    Converter c2 = i;
-    cout << c2._i;
-
-    int j = (int)c1;
-    cout << j;
-}
+//int main(){
+//    int i =14;
+//    Converter c1(5);
+//    Converter c2 = i;
+//    cout << c2._i;
+//
+//    int j = (int)c1;
+//    cout << j;
+//}
